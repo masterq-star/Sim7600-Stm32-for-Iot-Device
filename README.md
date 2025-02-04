@@ -45,7 +45,7 @@ Thiết bị có thể được ứng dụng trong giám sát tiêu thụ điệ
 | **Nguồn 12V -> 5V,3v3,... DC-DC** | Cấp nguồn cho thiết bị |
 | **USB** | Cấp nguồn cho thiết bị hoặc giao tiếp với máy tính để debug hoặc control |  
 
-![Hệ thống phần cứng](HARDWARE/hardware.png)
+![Hệ thống phần cứng](HARDWARE/Hardware.png)
 
 ### 1️⃣ **Phần mềm**
 ✅ Phần mềm được viết bằng flutter có thể biên dịch và chạy trên nhiều nền tảng khác nhau ứng dụng đọc dữ liệu trực tiếp trên mqtt broker và hiển thị trên ứng dụng qua các số hoặc biểu đồ.  
