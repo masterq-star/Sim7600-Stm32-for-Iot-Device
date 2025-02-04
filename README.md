@@ -17,15 +17,17 @@ Thiết bị có thể được ứng dụng trong giám sát tiêu thụ điệ
 ✅ Gửi dữ liệu lên server qua MQTT sử dụng SIM7600 (4G LTE)
 ✅ Lưu trữ dữ liệu tạm thời khi mất kết nối và tự động gửi lại khi có mạng
 ✅ Cảnh báo tức thời khi có bất thường (quá tải, mất phase, điện áp thấp/cao)
+✅ Đóng cắt contactor hoặc relay trực tiếp trên thiết bị hoặc trên dashboard
 ✅ Giao diện giám sát real-time trên dashboard IoT
+✅ sử dụng màn hình lcd 2004 qua giao thức I2c để quan sát chế độ hoạt động của thiết bị
 ✅ Nâng cấp firmware từ xa (OTA) qua MQTT
 
 ## 🏗 Cấu trúc dự án
-🔧 Công nghệ sử dụng
-Công nghệ	Ứng dụng
-STM32F4	Vi điều khiển chính
-Modbus RTU	Giao tiếp với đồng hồ điện
-SIM7600 4G LTE	Kết nối Internet và gửi dữ liệu qua MQTT
-MQTT	Giao tiếp giữa thiết bị và server
-Node-RED	Xây dựng dashboard hiển thị dữ liệu
-Altium Designer	Thiết kế mạch phần cứng
+📂 STM32_SIM76-00 ┣ 📂 CABIN # Code nhúng cho STM32/ESP32 ┣ 📂 HARDWARE # Thiết kế mạch cho thiết bị (Altium) ┣ 📂 SOFTWARE # Code ứng dụng sử dụng fultter 
+## 🔧 Công nghệ sử dụng
+| Công nghệ  | Mô tả |
+|------------|----------------------------|
+| **STM32**  | Vi điều khiển chính |
+| **RTOS**  | multithread  |
+| **MQTT**  | Giao tiếp giữa thiết bị & server |
+| **flutter**  | Xây dựng giao diện cho ứng dụng |
