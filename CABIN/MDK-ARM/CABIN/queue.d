@@ -1,0 +1,15 @@
+cabin\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/queue.c
+cabin\queue.o: C:\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdlib.h
+cabin\queue.o: C:\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin\..\include\string.h
+cabin\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+cabin\queue.o: C:\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stddef.h
+cabin\queue.o: C:\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdint.h
+cabin\queue.o: ../Core/Inc/FreeRTOSConfig.h
+cabin\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+cabin\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+cabin\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+cabin\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h
+cabin\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+cabin\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+cabin\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+cabin\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
