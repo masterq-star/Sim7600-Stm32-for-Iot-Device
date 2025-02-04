@@ -21,7 +21,7 @@ Thiết bị có thể được ứng dụng trong giám sát tiêu thụ điệ
 ✅ Giao diện giám sát real-time trên dashboard IoT
 ✅ sử dụng màn hình lcd 2004 qua giao thức I2c để quan sát chế độ hoạt động của thiết bị
 ✅ Nâng cấp firmware từ xa (OTA) qua MQTT
-
+---
 ## 🏗 Cấu trúc dự án
 📂 STM32_SIM76-00 ┣ 📂 CABIN # Code nhúng cho STM32/ESP32 ┣ 📂 HARDWARE # Thiết kế mạch cho thiết bị (Altium) ┣ 📂 SOFTWARE # Code ứng dụng sử dụng fultter 
 ## 🔧 Công nghệ sử dụng
