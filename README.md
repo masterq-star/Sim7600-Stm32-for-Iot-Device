@@ -13,14 +13,14 @@ Dự án này phát triển một thiết bị giám sát đồng hồ điện 3
 Thiết bị có thể được ứng dụng trong giám sát tiêu thụ điện từ xa, cảnh báo khi có bất thường và tối ưu hóa quản lý điện năng.
 
 ### 🎯 **Tính năng chính**
-✅ Đọc dữ liệu từ đồng hồ điện qua Modbus RTU (dòng điện, điện áp, công suất, hệ số công suất, tần số, v.v.)
-✅ Gửi dữ liệu lên server qua MQTT sử dụng SIM7600 (4G LTE)
-✅ Lưu trữ dữ liệu tạm thời khi mất kết nối và tự động gửi lại khi có mạng
-✅ Cảnh báo tức thời khi có bất thường (quá tải, mất phase, điện áp thấp/cao)
-✅ Đóng cắt contactor hoặc relay trực tiếp trên thiết bị hoặc trên dashboard
-✅ Giao diện giám sát real-time trên dashboard IoT
-✅ sử dụng màn hình lcd 2004 qua giao thức I2c để quan sát chế độ hoạt động của thiết bị
-✅ Nâng cấp firmware từ xa (OTA) qua MQTT
+✅ Đọc dữ liệu từ đồng hồ điện qua Modbus RTU (dòng điện, điện áp, công suất, hệ số công suất, tần số, v.v.)  
+✅ Gửi dữ liệu lên server qua MQTT sử dụng SIM7600 (4G LTE)  
+✅ Lưu trữ dữ liệu tạm thời khi mất kết nối và tự động gửi lại khi có mạng  
+✅ Cảnh báo tức thời khi có bất thường (quá tải, mất phase, điện áp thấp/cao)  
+✅ Đóng cắt contactor hoặc relay trực tiếp trên thiết bị hoặc trên dashboard  
+✅ Giao diện giám sát real-time trên dashboard IoT  
+✅ sử dụng màn hình lcd 2004 qua giao thức I2c để quan sát chế độ hoạt động của thiết bị  
+✅ Nâng cấp firmware từ xa (OTA) qua MQTT  
 
 ---
 ## 🏗 Cấu trúc dự án
