@@ -23,16 +23,16 @@ const char* PUB_TOPIC(void) {
     getMinifiedUniqueID();
     
     // Construct the topic
-    snprintf(topic, sizeof(topic), "HBHANOI/MFMDATA/%s/PUBDATA", minifiedID);
+    snprintf(topic, sizeof(topic), "HANOI/MFMDATA/%s/PUBDATA", minifiedID);
     return topic;
 }
 
 
-#define MQTT_BROKER_ADDRESS "tcp://mqtt.skynoce.com"
+#define MQTT_BROKER_ADDRESS ""
 #define MQTT_PORT 1883
 #define MQTT_TOPIC PUB_TOPIC()
-#define MQTT_USERNAME "root"
-#define MQTT_PASSWORD "123456789@"
+#define MQTT_USERNAME ""
+#define MQTT_PASSWORD ""
 
 #define PUBLISH_DATA_SIZE 500
 
