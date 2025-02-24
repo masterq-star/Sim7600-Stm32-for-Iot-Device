@@ -46,6 +46,7 @@ Thiết bị có thể được ứng dụng trong giám sát tiêu thụ điệ
 | **USB** | Cấp nguồn cho thiết bị hoặc giao tiếp với máy tính để debug hoặc control |  
 
 ![Hệ thống phần cứng](HARDWARE/Hardware.png)
+![Hệ thống phần cứng](HARDWARE/road.jpg)
 
 ### 1️⃣ **Phần mềm**
 ✅ Phần mềm được viết bằng flutter có thể biên dịch và chạy trên nhiều nền tảng khác nhau ứng dụng đọc dữ liệu trực tiếp trên mqtt broker và hiển thị trên ứng dụng qua các số hoặc biểu đồ.  
