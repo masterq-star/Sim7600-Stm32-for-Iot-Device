@@ -11,6 +11,8 @@ This project develops a monitoring device for 3-phase (or single-phase) power me
 
 The device can be applied in remote power consumption monitoring, alerting when anomalies occur, and optimizing electrical energy management.
 
+The device communicates with industrial multi-function meters such as MFM383A via Modbus RTU (RS-485).
+
 ### 🎯 **Key Features**
 ✅ Read data from power meters via Modbus RTU (current, voltage, power, power factor, frequency, etc.)   
 ✅ Send data to server via MQTT using SIM7600 (4G LTE)   
@@ -107,26 +109,9 @@ Can adjust server parameters or topics directly on the application.
 
 ### Mobile Application Features
 - Real-time data visualization
-- Historical data charts and trends
-- Alarm configuration and notifications
+- Alarm configuration and notifications(future)
 - Remote device configuration
-- Export data reports
-
----
-
-## 📊 Applications
-
-### Industrial Applications
-- **Factory energy monitoring**: Track power consumption across production lines
-- **Building management**: Monitor electrical systems in commercial buildings
-- **Data centers**: Power usage effectiveness (PUE) monitoring
-- **Renewable energy**: Solar and wind power generation monitoring
-
-### Smart Grid Integration
-- **Demand response**: Automated load management based on grid conditions
-- **Peak shaving**: Reduce electricity costs during peak demand periods
-- **Power quality monitoring**: Detect voltage sags, harmonics, and interruptions
-- **Energy trading**: Accurate measurement for energy market transactions
+- Export data reports(future)
 
 ---
 
@@ -135,14 +120,9 @@ Can adjust server parameters or topics directly on the application.
 ### Device Security
 - **Secure boot**: Verified firmware loading
 - **Hardware encryption**: Secure key storage
-- **Access control**: User authentication and authorization
-- **Firmware integrity**: Digital signature verification
 
 ### Communication Security
 - **TLS/SSL encryption**: Secure MQTT communication
-- **Certificate management**: Device and server authentication
-- **VPN support**: Virtual private network connectivity
-- **Data integrity**: Message authentication codes
 
 ---
 
@@ -157,10 +137,8 @@ Can adjust server parameters or topics directly on the application.
 - **Humidity**: 5% to 95% non-condensing
 
 ### Scalability
-- **Multi-device support**: Monitor up to 32 meters per gateway
+- **Multi-device support**: Monitor up to 200 meters per gateway
 - **Cloud integration**: Compatible with major IoT platforms
-- **Database storage**: Long-term historical data retention
-- **API access**: RESTful APIs for third-party integration
 
 ---
 
@@ -179,11 +157,7 @@ Can adjust server parameters or topics directly on the application.
 - **State Management**: Provider or Bloc pattern
 
 ### Cloud Integration
-- **MQTT Brokers**: Mosquitto, AWS IoT Core, Azure IoT Hub
-- **Database**: InfluxDB, PostgreSQL, MongoDB
-- **Analytics**: Grafana, Power BI, custom dashboards
-- **APIs**: REST and GraphQL interfaces
-
+- **MQTT Brokers**: Mosquitto, 
 ---
 
 ## 📞 Support & Documentation
