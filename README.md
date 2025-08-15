@@ -28,7 +28,7 @@ The device communicates with industrial multi-function meters such as MFM383A vi
 ## 🏗 Project Structure
 ```
 📂 STM32_SIM7600
-┣ 📂 CABIN      # Embedded code for STM32/ESP32
+┣ 📂 FIRMWARE      # Embedded code for STM32/ESP32
 ┣ 📂 HARDWARE   # Circuit design for device (Altium)
 ┣ 📂 SOFTWARE   # Application code using Flutter
 ```
